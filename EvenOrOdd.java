@@ -1,17 +1,20 @@
-class EvenOrOdd
-{
-	public static void main (String [] args)
-	{
-		int num = 5;
-		
-		if (num% 2 == 0)
-		{
-			System.out.println("Entered Number is Even");
+package com.xworkz.Stringapp;
+
+import java.util.Scanner;
+
+public class EvenOrOdd {
+	public static void main(String args[]) {
+	int x;
+		Scanner sc=new Scanner(System.in);
+		System.out.println("enter an integer");
+		x=sc.nextInt();	
+		if(x%2==0) {
+			System.out.println("even");
 		}
-		else
-		{
-			System.out.println("Entered Number is Odd");
+		else {
+			
+			System.out.println("odd");
 		}
-		
 	}
+
 }
