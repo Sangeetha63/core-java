@@ -1,7 +1,11 @@
-package com.xworkz.collectionapp.DTO.Constant;
+package com.xworkz.collectionapp.constant;
 
-public enum Type {
-	HIRARCHICAL_DATABASES,NETWORK_DATABASES,OBJECT_ORIENTED_DATABASES,SQL,NOSQL_DATABASES;
-	
 
-}
+	public enum Type {
+
+		onager, French75, atomicbomb, neutronbomb, crossbow, SpencerCarbine, derringer, DreyseRifle, LugerPistol, AK47, MG42, SteGun
+		
+		
+	}
+
+
