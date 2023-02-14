@@ -4,6 +4,7 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
+
 <link
 	href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
 	rel="stylesheet"
@@ -25,25 +26,14 @@
 
 				<form class="d-flex">
 					<input class="form-control me-3" type="search" placeholder="Search"
-						aria-label="Search"> <a class="btn btn-outline-primary"
-						href="index.jsp">Home</a> <a class="btn btn-outline-primary"
-						href="Beach.jsp">Beach</a>
-
+						aria-label="Search"> <a href="index.jsp"
+						class="btn btn-primary">Home</a>
 
 				</form>
 			</div>
 		</nav>
 	</div>
-
-
-	<h1>Beach Data Submit Sucessfully</h1>
-	<h2>Beach Game  is :${game} </h2>
-	<h2>Beach Name  is :${name} </h2>
-	<h2>Beach Location  is :${location}</h2>
-	<h2>Beach Clean  is :${clean} </h2>
-	
-
-
+	<h1>Data Has Been Saved</h1>
 
 </body>
 </html>
